@@ -34,12 +34,12 @@ const Contact = () => {
   };
 
   return (
-    <section id="reservation" className="py-20 bg-gradient-to-br from-gray-50 to-green-50">
+    <section id="reservation" className="py-20 bg-gradient-to-br from-gray-50 to-yellow-50">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-800 mb-4">
-              Réservez Votre <span className="text-green-600">Séjour</span>
+              Réservez Votre <span className="text-yellow-600">Séjour</span>
             </h2>
             <p className="text-xl text-gray-600">
               Remplissez le formulaire ci-dessous et nous vous contacterons rapidement
@@ -120,7 +120,7 @@ const Contact = () => {
                     name="guests"
                     value={formData.guests}
                     onChange={handleChange}
-                    className="mt-1 w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                    className="mt-1 w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-yellow-500 focus:border-transparent"
                   >
                     <option value="1">1 personne</option>
                     <option value="2">2 personnes</option>
@@ -138,14 +138,14 @@ const Contact = () => {
                     value={formData.message}
                     onChange={handleChange}
                     rows={4}
-                    className="mt-1 w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                    className="mt-1 w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-yellow-500 focus:border-transparent"
                     placeholder="Demandes spéciales, questions..."
                   />
                 </div>
 
                 <Button 
                   type="submit"
-                  className="w-full bg-green-600 hover:bg-green-700 text-white py-3 text-lg font-semibold"
+                  className="w-full bg-yellow-600 hover:bg-yellow-700 text-white py-3 text-lg font-semibold"
                 >
                   Envoyer ma Demande de Réservation
                 </Button>
@@ -157,25 +157,25 @@ const Contact = () => {
                 <h3 className="text-2xl font-semibold text-gray-800 mb-4">Informations Pratiques</h3>
                 <div className="space-y-4">
                   <div>
-                    <h4 className="font-semibold text-green-600">Adresse</h4>
+                    <h4 className="font-semibold text-yellow-600">Adresse</h4>
                     <p className="text-gray-600">Hôtel Bambou<br />Port-Gentil, Gabon</p>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-green-600">Téléphone</h4>
+                    <h4 className="font-semibold text-yellow-600">Téléphone</h4>
                     <p className="text-gray-600">+241 XX XX XX XX</p>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-green-600">Email</h4>
+                    <h4 className="font-semibold text-yellow-600">Email</h4>
                     <p className="text-gray-600">contact@hotelbambou.ga</p>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-green-600">Check-in / Check-out</h4>
+                    <h4 className="font-semibold text-yellow-600">Check-in / Check-out</h4>
                     <p className="text-gray-600">Arrivée : 14h00<br />Départ : 12h00</p>
                   </div>
                 </div>
               </div>
 
-              <div className="bg-green-600 text-white p-6 rounded-xl">
+              <div className="bg-yellow-600 text-white p-6 rounded-xl">
                 <h3 className="text-xl font-semibold mb-3">Pourquoi Réserver Directement ?</h3>
                 <ul className="space-y-2 text-sm">
                   <li>✓ Meilleurs tarifs garantis</li>

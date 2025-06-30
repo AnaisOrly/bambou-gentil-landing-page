@@ -26,7 +26,7 @@ const Testimonials = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-800 mb-4">
-            Ce Que Disent Nos <span className="text-green-600">Clients</span>
+            Ce Que Disent Nos <span className="text-yellow-600">Clients</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Découvrez les témoignages de nos clients satisfaits
@@ -37,7 +37,7 @@ const Testimonials = () => {
           {testimonials.map((testimonial, index) => (
             <div 
               key={index}
-              className="bg-gradient-to-br from-green-50 to-blue-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
+              className="bg-gradient-to-br from-yellow-50 to-blue-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
             >
               <div className="flex items-center mb-4">
                 {[...Array(testimonial.rating)].map((_, i) => (

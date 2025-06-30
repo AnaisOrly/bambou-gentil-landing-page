@@ -34,7 +34,7 @@ const SpecialOffer = () => {
   };
 
   return (
-    <section className="py-20 bg-gradient-to-r from-green-600 to-blue-600 text-white relative overflow-hidden">
+    <section className="py-20 bg-gradient-to-r from-yellow-600 to-blue-600 text-white relative overflow-hidden">
       <div className="absolute inset-0 bg-black/10"></div>
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center max-w-4xl mx-auto">

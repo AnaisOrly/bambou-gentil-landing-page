@@ -30,7 +30,7 @@ const Features = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-800 mb-4">
-            Pourquoi Choisir l'<span className="text-green-600">Hôtel Bambou</span> ?
+            Pourquoi Choisir l'<span className="text-yellow-600">Hôtel Bambou</span> ?
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Découvrez tous les avantages qui font de notre établissement le choix idéal pour votre séjour à Port-Gentil
@@ -41,9 +41,9 @@ const Features = () => {
           {features.map((feature, index) => (
             <div 
               key={index}
-              className="text-center p-6 rounded-xl bg-gradient-to-br from-green-50 to-blue-50 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
+              className="text-center p-6 rounded-xl bg-gradient-to-br from-yellow-50 to-blue-50 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
             >
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-green-100 text-green-600 rounded-full mb-4">
+              <div className="inline-flex items-center justify-center w-16 h-16 bg-yellow-100 text-yellow-600 rounded-full mb-4">
                 {feature.icon}
               </div>
               <h3 className="text-xl font-semibold text-gray-800 mb-3">{feature.title}</h3>
